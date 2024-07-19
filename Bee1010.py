@@ -1,0 +1,13 @@
+#In this problem, the task is to read a code of a product 1, the number of units of product 1, the price for one unit of product 1, the code of a product 2, the number of units of product 2 and the price for one unit of product 2. After this, calculate and show the amount to be paid.
+valores1 = input()
+valores1 = valores1.split()
+product1Code = int(valores1[0])
+product1NumberOfUnits = float(valores1[1])
+product1Price = float(valores1[2])
+valores2 = input()
+valores2 = valores2.split()
+product2Code = int(valores2[0])
+product2NumberOfUnits = float(valores2[1])
+product2Price = float(valores2[2])
+total = (product1NumberOfUnits*product1Price)+(product2NumberOfUnits*product2Price)
+print(f'VALOR A PAGAR: R$ {total:.2f}')
