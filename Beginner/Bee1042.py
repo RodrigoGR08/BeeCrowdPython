@@ -1,6 +1,4 @@
 #Read three integers and sort them in ascending order. After, print these values in ascending order, a blank line and then the values in the sequence as they were readed.
-def breakLine():
-    print("\n")
 n1, n2, n3 = map(int, input().split())
 numbers = [n1, n2, n3]
 sortedNumbers = numbers[:]
